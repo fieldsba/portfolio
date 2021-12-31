@@ -1,0 +1,81 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--color2);
+}
+
+:root {
+    --color1: #528e86;
+    --color2: #b7ced2;
+    --color3: #dcdde2;
+    --color4: #a19a90;
+    --color5: #636250;
+}
+
+.navbar {
+    background-color: var(--color1);
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color1);
+    overflow: hidden;
+}
+
+.navbar ul li {
+    float: right;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    padding: 20px 25px;
+    background-color: var(--color1);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.aboutme {
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.aboutme p {
+    margin-left: 100px;
+    font-size: 1.3em;
+    width: 25%;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+.mywork h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.mywork h4 {
+    text-align: center;
+}
