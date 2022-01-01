@@ -41,7 +41,6 @@
 }
 
 .aboutme {
-    border: 2px solid green;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -69,6 +68,12 @@ figcaption {
     width: 25%;
     word-spacing: 2px;
     line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mywork {
+    height: 750px;
 }
 
 .mywork h1 {
@@ -78,4 +83,29 @@ figcaption {
 
 .mywork h4 {
     text-align: center;
+}
+
+.project1 {
+   display: inline-block;
+   border: 2px solid red;
+   text-align: center;
+   width: 100%;
+   margin: 10px;
+}
+
+.project1 img {
+    vertical-align: top;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 400px;
+    margin-left: 30%;
+    
+}
+
+.project1 figcaption {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
 }
