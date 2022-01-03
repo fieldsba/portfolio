@@ -9,6 +9,7 @@
     --color3: #dcdde2;
     --color4: #a19a90;
     --color5: #636250;
+    --blackborder: 2px solid black;
 }
 
 .navbar {
@@ -58,6 +59,12 @@ img {
 figcaption {
     font-weight: bold;
     font-size: 2em;
+    flex-wrap: wrap;
+}
+
+.aboutme figcaption {
+    font-weight: bold;
+    font-size: 2em;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -87,10 +94,9 @@ figcaption {
 
 .project1 {
    display: inline-block;
-   border: 2px solid red;
    text-align: center;
    width: 100%;
-   margin: 10px;
+   height: 500px;
 }
 
 .project1 img {
@@ -101,11 +107,42 @@ figcaption {
     margin-bottom: 0;
     height: 400px;
     margin-left: 30%;
-    
 }
 
 .project1 figcaption {
-    text-align: center;
     width: 40%;
     margin-left: 30%;
+}
+
+.project2 {
+    float: left;
+}
+
+.project3 {
+    float: right;
+}
+
+.project2, .project3 {
+    display: flex;
+    width: 50%;
+    height: 400px;
+}
+
+.project2 img, .project3 img {
+    width: 100%;
+}
+
+.project2 figure {
+    margin-left: 50%;
+    border: var(--blackborder);
+}
+
+.project3 figure {
+    margin-right: 50%;
+    border: var(--blackborder);
+}
+
+.project2 figcaption, .project3 figcaption {
+    margin-top: 20px;
+    text-align: center;
 }
