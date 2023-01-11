@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Alex Weaves the Web</title>
+  </head>
+  <body>
+    <!-- navigation tags - block level element -->
+    <header>
+      <h1>
+        <a href="/">Alex Fields</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end navigation -->
+
+    <!-- hero/jumbotron -->
+    <section class="hero">
+      <div class="hero-cta">
+        <h2>All About Alex</h2>
+        <br>
+        <p class="introduction">
+          Hello! My name is Alex, and I am an aspiring software engineer! After spending six years working in 
+          healthcare, I realized it was time for a change. One of my favorite aspects of my job as a radiologic
+          technologist was solving problems to acquire diagnostic-quality images. When I realized it was time for
+          a change, I knew I wanted a career in which I could continue my passion for creative problem solving.
+          I was introduced to the tech world by family members and immediately fell in love. I completed 
+          Vanderbilt University's Full-Stack Web Development Bootcamp in 2022 and I am so excited to be beginning my
+          journey as a software engineer! I've always had a passion for video games, and I would love to one day
+          learn to use my programming skills to develop video games.
+        </p>
+      </div>
+    </section>
+    <!-- end header -->
+
+    <!-- "skills" start - <section> -->
+    <section id="skills" class="intro">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          Skills
+        </h2>
+      </div>
+      <div class="flex-row">
+        <p>
+          <ul id="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>GitHub</li>
+            <li>Bootstrap</li>
+          </ul>
+        </p>
+      </div>
+    </section>
+    <!-- end "skills" -->
+
+
+    <!-- "portfolio" start -->
+    <section id="portfolio">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          Portfolio
+        </h2>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <img src="./assets/images/password-gen-screencap.png" alt="Password generator application screenshot" />
+          <div class="project-desc">
+            <h3 class="project-name">Password Generator</h3>
+            <p>Generate a custom, random, and secure password with this simple application! This app that was built with vanilla JavaScript, HTML, and CSS generates passwords with a length of 8-128 characters.
+              Customization options affect the inclusion of uppercase letters, lowercase letters, special characters, and numbers.
+            </p> <br>
+            <p><a href="https://fieldsba.github.io/password-generator/">Visit the live site here</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="./assets/images/taskinator-screencap.png" alt="Taskinator application screenshot" />
+          <div class="project-desc">
+            <h3 class="project-name">Taskinator</h3>
+            <p>Built with JavaScript, HTML, and CSS, this app allows the user to keep a to-do list in the style of a kanban board by saving and loading tasks from localStorage.
+              It features tasks sorted into three columns: tasks to do, tasks in progress, and completed tasks. Personally,
+              I find that looking at a list of my completed tasks fills me with a sense of pride and accomplishment at how far I've
+              come in my tasks for the day!
+            </p>
+            <br><br><br><br>
+            <p><a href="https://fieldsba.github.io/taskinator/">Visit the live site here</a></p>
+            </div>
+          </article>
+
+        <article class="project">
+          <img src="./assets/images/react-flashcards-screencap.png" alt="React flashcards application screenshot" />
+          <div class="project-desc">
+            <h3 class="project-name">React Flashcards</h3>
+            <p>React Flashcards is an app built using ReactJS and the Open Trivia Database API. The app allows the user to generate a 
+              chosen number of flashcards with questions and answer choices from 24 different categories. Like with any flashcards, the questions 
+              and answer choices are shown on the front of the card, and the correct answer is shown on the back of the card, which is revealed
+               by clicking. I am a huge trivia buff and Jeopardy fan and had a ton of fun creating this project!</p><br><br><br>
+               <p>Visit the app's GitHub page <a href="https://github.com/fieldsba/react-flashcards">here</a> to try it out for yourself!</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <img src="./assets/images/calculator-screencap.png" alt="React calculator application screenshot" />
+          <div class="project-desc">
+            <h3 class="project-name">React Calculator</h3>
+            <p>To get some more practice with my ReactJS skills, I created a simple calculator application capable
+               of performing the four basic mathematical functions!</p><br><br><br>
+               <p>Visit the app's GitHub page <a href="https://github.com/fieldsba/react-flashcards">here</a> to check it out!</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="./assets/images/placeholder.png" alt="Project 5" />
+          <div class="project-desc">
+            <h3 class="project-name">Coming soon!</h3>
+            <p>Under construction</p>
+            </div>
+          </article>
+
+        <article class="project">
+          <img src="./assets/images/placeholder.png" alt="Project 6" />
+          <div class="project-desc">
+            <h3 class="project-name">Coming soon!</h3>
+            <p>Under construction</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- "portfolio" end -->
+
+    <!-- "contact me" start -->
+    <section id="contact-me" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          Contact Me
+        </h2>
+      </div>
+
+      <div class="contact-info">
+        <div>
+          <h3>Resumé</h3>
+          <p>
+            <a href="./assets/AlexFieldsResume.pdf">PDF</a>
+          </p>
+          
+        </div>
+
+        <div class="contact-form">
+          <h3>Contact Information</h3>
+          <br>
+          <ul>
+            <li>Email: brooke.fields415@gmail.com</li>
+            <br>
+            <li>Cell Phone: +1 (423)-765-5694</li>
+            <br>
+            <li>LinkedIn: <a href=">https://www.linkedin.com/in/alex-fields-b63100224">Alex Fields</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- "reach out" end -->
+
+    <!-- footer -->
+    <footer>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
